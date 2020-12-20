@@ -1,4 +1,4 @@
-=== EDD SL Requires PHP===
+=== EDD SL Requires PHP ===
 Author URI: https://polevaultweb.com
 Plugin URI: https://github.com/polevaultweb/edd-sl-requires-php
 Contributors: polevaultweb
