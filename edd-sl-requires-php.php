@@ -17,9 +17,7 @@ add_action( 'add_meta_boxes', function () {
 function pvw_edd_sl_readme_meta_box_render() {
 	global $post;
 
-	edd_sl_render_readme_cache_status();
-
-	edd_sl_readme_meta_box_settings( $post->ID );
+	edd_sl_readme_meta_box_render();
 
 	if ( ! current_user_can( 'manage_shop_settings' ) ) {
 		return;
